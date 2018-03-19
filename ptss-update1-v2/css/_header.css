@@ -1,0 +1,37 @@
+
+/*@import url("_variables.css"); */
+
+$brandColor1: #009576;
+$brandColor2: #96d8b4;
+
+:root{
+	--brandcolor1:#009576;
+	--brandcolor2:#96d8b4;
+}
+
+.navbar-brand img{
+
+	width: 150px;
+	height: auto;
+}
+
+.navbar-nav .nav-item{
+
+	width:70px;
+	height:2.5em;
+	text-align: center;
+	vertical-align: text-top;
+	margin: 0 4px;
+	border-radius:2px;
+}
+
+.nav-link {
+	font-size:14px;
+	padding:2px;
+	color:#fff;
+	background-color: #009576;
+}
+
+.nav-link:hover{
+	color:#96d8b4;
+}
